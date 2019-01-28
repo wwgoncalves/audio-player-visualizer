@@ -68,7 +68,7 @@ window.onload = function() {
   };
 
   canvasElement.onclick = function() {
-    audioElement && audioElement.paused && !audioElement.ended
+    audioElement.paused && !audioElement.ended
       ? audioElement.play()
       : audioElement.pause();
   };
