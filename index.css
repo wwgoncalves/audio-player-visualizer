@@ -1,9 +1,13 @@
-body {
-  background-color: white;
+body,
+div {
+  margin: 0;
+  box-sizing: border-box;
 }
 
 #content {
   position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
 canvas {
@@ -23,7 +27,7 @@ audio {
 }
 
 #dropzone {
-  position: relative;
+  position: absolute;
   border: 1px dashed blue;
   background-image: linear-gradient(rgb(200, 224, 255), rgb(255, 255, 210));
   width: 100%;
